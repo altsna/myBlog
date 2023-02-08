@@ -17,6 +17,7 @@ export default function CommandPalette({ navigation }) {
         setIsOpen(!isOpen)
       }
     }
+
     window.addEventListener('keydown', handleKeyDown)
 
     return () => window.removeEventListener('keydown', handleKeyDown)
