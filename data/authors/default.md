@@ -1,6 +1,6 @@
 ---
 name: Asnal maroya
-avatar: /static/images/avatar.png
+avatar: /static/images/asna.jpeg
 occupation: Student at UGM, Yogyakarta
 company:
 email: address@yoursite.com
