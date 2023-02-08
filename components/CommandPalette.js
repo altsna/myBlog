@@ -48,7 +48,7 @@ export default function CommandPalette({ navigation }) {
       >
         <FiCommand />
       </motion.button>
-      <Transition.Root show={isOpen} as={Fragment} afterLeave={() => setQuery('')}>
+      {/* <Transition.Root show={isOpen} as={Fragment} afterLeave={() => setQuery('')}>
         <Dialog onClose={setIsOpen} className="fixed inset-0 z-20 overflow-y-auto p-12 pt-[20vh]">
           <Transition.Child
             enter="duration-300 ease-out"
@@ -128,7 +128,7 @@ export default function CommandPalette({ navigation }) {
             </Combobox>
           </Transition.Child>
         </Dialog>
-      </Transition.Root>
+      </Transition.Root> */}
     </>
   )
 }
