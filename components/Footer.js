@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="mb-2 text-sm text-gray-500 dark:text-gray-400 sm:block md:hidden lg:hidden">
           <div className="mx-1">
             <Link href="" className="link-underline">
-              Asna{` © ${new Date().getFullYear()}`}
+              Asnal maroya{` © ${new Date().getFullYear()}`}
             </Link>
           </div>
         </div>
